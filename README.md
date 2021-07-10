@@ -3,5 +3,5 @@ Sitio web responsive creado con HTML y CSS para el proyecto final de Desarrollo 
 
 ### [Ver proyecto final](https://franrappazzini.github.io/PFC/) 
 
-[![](https://github.com/favicon.ico) LinkedIn](https://github.com/franRappazzini)
-[![](https://github.com/franRappazzini/PFC/blob/master/img/Logos/github.svg = 50x50) GitHub](https://www.linkedin.com/in/franciscorappazzini/)
+[Mi GitHub](https://github.com/franRappazzini)
+[Mi LinkedIn](https://www.linkedin.com/in/franciscorappazzini/)
