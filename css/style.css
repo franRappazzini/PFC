@@ -10344,32 +10344,43 @@ html header .header__container .header__burger-menu {
 }
 
 html .footer__container {
-  justify-content: space-between;
   align-items: flex-start;
   background-color: rgba(226, 226, 226, 0.9);
   border-top: #6d6d6d 1px solid;
 }
 
-html .footer__container .footer__div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+html .footer__container .footer__text {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
 }
 
-html .footer__container .footer__div .footer__text {
-  margin: 0;
+html .footer__container .footer__ul, html .footer__container .footer__ul--redes {
+  margin-bottom: 1rem;
+  padding: 0;
 }
 
-html .footer__container .footer__div .footer__logo:hover {
-  transform: scale(1.04);
+html .footer__container .footer__ul li, html .footer__container .footer__ul--redes li {
+  list-style: none;
+  margin: 0.5rem;
 }
 
-@media only screen and (max-width: 991px) {
-  html .footer__container .footer__logo {
-    width: 1.5rem;
-  }
-  html .footer__container .footer__img {
-    width: 10rem;
+html .footer__container .footer__ul li a, html .footer__container .footer__ul--redes li a {
+  text-decoration: none;
+  color: black;
+}
+
+html .footer__container .footer__ul li a:hover img, html .footer__container .footer__ul--redes li a:hover img {
+  transform: scale(1.05);
+}
+
+html .footer__container .footer__ul--redes {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 394px) {
+  html .footer__container .footer__ul--redes, html .footer__container .footer__ul, html .footer__container .footer__ul--redes {
+    justify-content: flex-start;
   }
 }
 
