@@ -10338,9 +10338,6 @@ html header .header__container .header__burger-menu {
   html header .header__container {
     flex-direction: row-reverse;
   }
-  html header .header__container .header__logo {
-    text-align: center;
-  }
   html header .header__container .header__contacto,
   html header .header__container .nav__link {
     display: none;
