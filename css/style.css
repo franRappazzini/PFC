@@ -10350,6 +10350,12 @@ html header .header__container .header__burger-menu {
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.97);
   }
+  html header .header__container .header__burger-menu .burger-menu--width .button__close-x {
+    transition: all 0.5s;
+  }
+  html header .header__container .header__burger-menu .burger-menu--width .button__close-x:hover {
+    transform: rotateZ(180deg);
+  }
   html header .header__container .header__burger-menu .burger-menu--width .nav__ul-burger {
     list-style: none;
     margin-bottom: 2rem;
