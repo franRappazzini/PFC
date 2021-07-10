@@ -10765,4 +10765,16 @@ html .footer__container .footer__ul--redes {
   font-weight: 500;
   color: black;
 }
+
+.body__404 h1, .body__404 .h1 {
+  font-size: 4rem;
+}
+
+.body__404 h6, .body__404 .h6 {
+  margin-bottom: 2rem;
+}
+
+.body__404 h2, .body__404 .h2 {
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
