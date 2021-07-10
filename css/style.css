@@ -10321,7 +10321,7 @@ html header .header__container .header__burger-menu {
   }
   html header .header__container .header__burger-menu .burger-menu--width {
     width: 70vw;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: white;
   }
   html header .header__container .header__burger-menu .burger-menu--width .nav__ul-burger {
     list-style: none;
