@@ -1,0 +1,8 @@
+.vscode
+
+bootstrap
+bootstrap/!dist
+
+scss
+
+*.json
