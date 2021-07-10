@@ -2,6 +2,8 @@
 
 bootstrap
 
+node_modules
+
 scss
 
 *.json
