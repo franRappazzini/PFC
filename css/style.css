@@ -10382,34 +10382,50 @@ html .footer__container {
 html .footer__container .footer__text {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
-html .footer__container .footer__ul, html .footer__container .footer__ul--redes {
+html .footer__container .footer__ul {
   margin-bottom: 1rem;
   padding: 0;
 }
 
-html .footer__container .footer__ul li, html .footer__container .footer__ul--redes li {
+html .footer__container .footer__ul li {
   list-style: none;
   margin: 0.5rem;
 }
 
-html .footer__container .footer__ul li a, html .footer__container .footer__ul--redes li a {
+html .footer__container .footer__ul li a {
   text-decoration: none;
   color: black;
 }
 
-html .footer__container .footer__ul li a:hover img, html .footer__container .footer__ul--redes li a:hover img {
+html .footer__container .footer__ul li a:hover img {
   transform: scale(1.05);
 }
 
-html .footer__container .footer__ul--redes {
+html .footer__container .footer__img-redes {
   justify-content: center;
 }
 
-@media only screen and (max-width: 394px) {
-  html .footer__container .footer__ul--redes, html .footer__container .footer__ul, html .footer__container .footer__ul--redes {
+html .footer__container .footer__img-redes a {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+html .footer__container .footer__img-redes a:hover img {
+  transform: scale(1.01);
+}
+
+html .footer__container .footer__map {
+  margin-bottom: 1rem;
+  width: 15.5rem;
+  height: 8rem;
+  filter: drop-shadow(1px 1px 2px grey);
+}
+
+@media only screen and (max-width: 409px) {
+  html .footer__container .footer__img-redes {
     justify-content: flex-start;
   }
 }
