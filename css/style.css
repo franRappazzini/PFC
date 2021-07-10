@@ -10355,7 +10355,7 @@ html header .header__container .header__burger-menu {
   }
   html header .header__container .header__burger-menu .burger-menu--width .nav__ul-burger .list-group-item {
     background-color: transparent;
-    padding: 4px;
+    padding: 0.5rem;
   }
   html header .header__container .header__burger-menu .burger-menu--width .nav__ul-burger .list-group-item .nav__link-burger {
     text-decoration: none;
