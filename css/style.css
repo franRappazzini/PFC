@@ -10612,24 +10612,28 @@ html .footer__container .footer__map {
   font-weight: 500;
 }
 
-.div__container-form {
+.main__container-contacto {
+  justify-content: space-between;
+}
+
+.main__container-contacto .div__container-form {
   margin-bottom: 1rem;
 }
 
-.div__container-form .form__fieldset {
+.main__container-contacto .div__container-form .form__fieldset {
   border: 1px solid black;
   width: 25vw;
   align-items: center;
 }
 
-.div__container-form .form__fieldset .form__button {
+.main__container-contacto .div__container-form .form__fieldset .form__button {
   background-color: #eeeeee;
   border: black solid 1px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0.5rem;
 }
 
-.div__container-form .form__fieldset .form__button:active {
+.main__container-contacto .div__container-form .form__fieldset .form__button:active {
   transform: scale(0.9);
 }
 
@@ -10656,12 +10660,18 @@ html .footer__container .footer__map {
 }
 
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
-  iframe {
+  .main__container-contacto iframe {
     height: 25rem;
     width: 25rem;
   }
-  .div__container-form .form__fieldset {
+  .main__container-contacto .div__container-form .form__fieldset {
     width: auto;
+  }
+}
+
+@media only screen and (max-width: 689px) {
+  .main__container-contacto {
+    justify-content: center;
   }
 }
 
