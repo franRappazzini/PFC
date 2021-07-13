@@ -10574,11 +10574,16 @@ html .footer__container .footer__map {
   object-fit: cover;
 }
 
-.row__container--mujer-hombre .col-lg-3 a .img__text {
+.row__container--mujer-hombre .col-lg-3 a .img__descripcion {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.row__container--mujer-hombre .col-lg-3 a .img__descripcion .img__text {
   font-size: 0.9rem;
   color: black;
   text-decoration: none;
   margin: 0;
+  margin-bottom: 4px;
 }
 
 @media only screen and (max-width: 768px) {
