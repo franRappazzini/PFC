@@ -10489,6 +10489,18 @@ html .footer__container .footer__map {
   }
 }
 
+@media only screen and (min-width: 1500px) {
+  .row__container--marcas a .marca__img {
+    height: 37rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .row__container--marcas a .marca__img {
+    height: 45rem;
+  }
+}
+
 .main__mas-marcas {
   text-decoration: none;
   color: black;
@@ -10677,6 +10689,12 @@ html .footer__container .footer__map {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .main__container-contacto iframe {
+    width: 60vw;
+  }
+}
+
 .carousel {
   margin-bottom: 1rem;
 }
@@ -10694,6 +10712,18 @@ html .footer__container .footer__map {
 @media only screen and (max-width: 768px) {
   .carousel .carousel-item {
     height: 36rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .carousel .carousel-item {
+    height: 33rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .carousel .carousel-item {
+    height: 38rem;
   }
 }
 
@@ -10784,6 +10814,18 @@ html .footer__container .footer__map {
 @media only screen and (max-width: 768px) {
   .relacionados__container a .img__relacionados {
     height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .relacionados__container a .img__relacionados {
+    height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .relacionados__container a .img__relacionados {
+    height: 25rem;
   }
 }
 
