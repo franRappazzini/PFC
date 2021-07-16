@@ -10628,22 +10628,136 @@ html main {
   }
 }
 
-.ul__marcas {
-  list-style: none;
+.grid__container {
+  display: grid;
+  grid-template-areas: "allo bensimon bensimon" "besha cibeles legacy" "lovely lovely tryme";
+  grid-template-rows: repeat(3, 28rem);
+  grid-gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.ul__marcas li {
-  padding: 0.5rem;
+.grid__container .allo {
+  grid-area: allo;
 }
 
-.ul__marcas li a {
+.grid__container .allo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .bensimon {
+  grid-area: bensimon;
+}
+
+.grid__container .bensimon video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .besha {
+  grid-area: besha;
+}
+
+.grid__container .besha img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .cibeles {
+  grid-area: cibeles;
+}
+
+.grid__container .cibeles img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .lovely {
+  grid-area: lovely;
+}
+
+.grid__container .lovely img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .legacy {
+  grid-area: legacy;
+}
+
+.grid__container .legacy img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .tryme {
+  grid-area: tryme;
+}
+
+.grid__container .tryme img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid__container .div__marca {
+  position: relative;
+}
+
+.grid__container .div__marca .text__marca {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
   text-decoration: none;
-  color: black;
-  font-size: 2rem;
+  text-align: center;
+  transition: all linear 0.3s;
+  font-size: 1.9rem;
 }
 
-.ul__marcas li a:hover {
-  font-weight: 500;
+.grid__container .div__marca:hover .text__marca {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 3px 2px black;
+}
+
+.grid__container .div__marca:hover img,
+.grid__container .div__marca:hover video {
+  filter: drop-shadow(1px 1px 3px #666) blur(1px);
+}
+
+@media only screen and (max-width: 991px) {
+  .grid__container .div__marca .text__marca {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 3px 3px 2px black;
+    transition: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .grid__container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+  }
+  .grid__container .div__marca {
+    height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .grid__container .div__marca {
+    height: 25rem;
+  }
 }
 
 .main__container-contacto .div__container-map iframe {
