@@ -1,5 +1,8 @@
 # Proyecto final Desarrollo Web - Coderhouse
-Sitio web responsive creado con HTML y CSS para el proyecto final de Desarrollo Web de Coderhouse
+Sitio web responsive creado con HTML y CSS para el proyecto final de Desarrollo Web de Coderhouse.
+
+###### Skills utilizadas:
+*Sass
 
 ### 👉🏼[Ver proyecto final](https://proyecto-final-dw-coder.netlify.app/)👈🏼
 
