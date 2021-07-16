@@ -3,6 +3,11 @@ Sitio web responsive creado con HTML y CSS para el proyecto final de Desarrollo 
 
 #### Skills utilizadas:
 *Sass
+*Bootstrap
+*Flexbox
+*Grids
+*BEM
+*SEO
 
 ### 👉🏼[Ver proyecto final](https://proyecto-final-dw-coder.netlify.app/)👈🏼
 
