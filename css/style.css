@@ -268,7 +268,7 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+img, .grid__container .grid__marca video,
 svg {
   vertical-align: middle;
 }
@@ -10410,7 +10410,7 @@ html footer .footer__container .footer__ul li a {
   color: black;
 }
 
-html footer .footer__container .footer__ul li a:hover img {
+html footer .footer__container .footer__ul li a:hover img, html footer .footer__container .footer__ul li a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__ul li a:hover video {
   transform: scale(1.05);
 }
 
@@ -10423,7 +10423,7 @@ html footer .footer__container .footer__img-redes a {
   margin-bottom: 1rem;
 }
 
-html footer .footer__container .footer__img-redes a:hover img {
+html footer .footer__container .footer__img-redes a:hover img, html footer .footer__container .footer__img-redes a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__img-redes a:hover video {
   transform: scale(1.01);
 }
 
@@ -10640,77 +10640,41 @@ html main {
   grid-area: allo;
 }
 
-.grid__container .allo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .grid__container .bensimon {
   grid-area: bensimon;
-}
-
-.grid__container .bensimon video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .grid__container .besha {
   grid-area: besha;
 }
 
-.grid__container .besha img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .grid__container .cibeles {
   grid-area: cibeles;
-}
-
-.grid__container .cibeles img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .grid__container .lovely {
   grid-area: lovely;
 }
 
-.grid__container .lovely img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .grid__container .legacy {
   grid-area: legacy;
-}
-
-.grid__container .legacy img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .grid__container .tryme {
   grid-area: tryme;
 }
 
-.grid__container .tryme img {
+.grid__container .grid__marca {
+  position: relative;
+}
+
+.grid__container .grid__marca img, .grid__container .grid__marca video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.grid__container .div__marca {
-  position: relative;
-}
-
-.grid__container .div__marca .text__marca {
+.grid__container .grid__marca .marca__text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -10722,20 +10686,20 @@ html main {
   font-size: 1.9rem;
 }
 
-.grid__container .div__marca:hover .text__marca {
+.grid__container .grid__marca:hover .marca__text {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
   text-shadow: 3px 3px 2px black;
 }
 
-.grid__container .div__marca:hover img,
-.grid__container .div__marca:hover video {
+.grid__container .grid__marca:hover img, .grid__container .grid__marca:hover video,
+.grid__container .grid__marca:hover video {
   filter: drop-shadow(1px 1px 3px #666) blur(1px);
 }
 
 @media only screen and (max-width: 991px) {
-  .grid__container .div__marca .text__marca {
+  .grid__container .grid__marca .marca__text {
     font-size: 2.5rem;
     font-weight: 500;
     text-shadow: 3px 3px 2px black;
@@ -10749,13 +10713,7 @@ html main {
     flex-direction: column;
     grid-gap: 1rem;
   }
-  .grid__container .div__marca {
-    height: 25rem;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .grid__container .div__marca {
+  .grid__container .grid__marca {
     height: 25rem;
   }
 }
@@ -10822,7 +10780,7 @@ html main {
   height: 28rem;
 }
 
-.carousel .carousel-item img {
+.carousel .carousel-item img, .carousel .carousel-item .grid__container .grid__marca video, .grid__container .grid__marca .carousel .carousel-item video {
   width: 100%;
   height: 100%;
   object-fit: cover;
