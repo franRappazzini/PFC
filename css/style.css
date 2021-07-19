@@ -10473,7 +10473,7 @@ html main {
 }
 
 .row__container--marcas a:hover .marca__img {
-  filter: drop-shadow(1px 1px 3px grey) opacity(65%);
+  filter: drop-shadow(1px 1px 3px #666) blur(1px);
 }
 
 .row__container--marcas a:hover .img__text {
