@@ -10414,17 +10414,13 @@ html footer .footer__container .footer__ul li a:hover img, html footer .footer__
   transform: scale(1.05);
 }
 
-html footer .footer__container .footer__img-redes {
-  justify-content: center;
-}
-
 html footer .footer__container .footer__img-redes a {
   margin-right: 0.5rem;
   margin-bottom: 1rem;
 }
 
 html footer .footer__container .footer__img-redes a:hover img, html footer .footer__container .footer__img-redes a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__img-redes a:hover video {
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 html footer .footer__container .footer__map {
