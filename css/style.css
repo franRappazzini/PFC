@@ -10286,8 +10286,6 @@ html header {
 }
 
 html header .header__container {
-  justify-content: space-between;
-  align-items: center;
   max-width: 1440px;
   margin: auto;
 }
@@ -10462,7 +10460,6 @@ html main {
   transform: translate(-50%, -50%);
   color: white;
   text-decoration: none;
-  text-align: center;
   transition: all linear 0.3s;
   font-size: 1.9rem;
 }
@@ -10474,7 +10471,6 @@ html main {
 .row__container--marcas a:hover .img__text {
   font-size: 3rem;
   font-weight: 700;
-  text-align: center;
   text-shadow: 3px 3px 2px black;
 }
 
@@ -10676,7 +10672,6 @@ html main {
   transform: translate(-50%, -50%);
   color: white;
   text-decoration: none;
-  text-align: center;
   transition: all linear 0.3s;
   font-size: 1.9rem;
 }
@@ -10684,7 +10679,6 @@ html main {
 .grid__container .grid__marca:hover .marca__text {
   font-size: 3rem;
   font-weight: 700;
-  text-align: center;
   text-shadow: 3px 3px 2px black;
 }
 
@@ -10724,7 +10718,6 @@ html main {
 .main__container-contacto .div__container-form .form__fieldset {
   border: 1px solid black;
   width: 25vw;
-  align-items: center;
 }
 
 .main__container-contacto .div__container-form .form__fieldset .form__button {
