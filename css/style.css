@@ -10843,10 +10843,6 @@ html main {
   margin-bottom: 1rem;
 }
 
-.relacionados__container {
-  margin-bottom: 1rem;
-}
-
 .relacionados__container p {
   margin-top: 1rem;
 }
@@ -10863,7 +10859,7 @@ html main {
 }
 
 .relacionados__container a .descripcion__text {
-  margin: 0;
+  margin-top: 0;
   font-size: 0.8rem;
 }
 
