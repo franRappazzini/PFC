@@ -1,6 +1,8 @@
 # Proyecto final Desarrollo Web - Coderhouse
 Sitio web responsive creado con HTML y CSS para el proyecto final de Desarrollo Web de Coderhouse.
 
+*Aclaración: de las páginas que aparecen productos, solo el primero es lnkeable. Y dentro de cada producto, en la sección de 'Productos realcionados', únicamente el primero es linkeable también.*
+
 #### Skill utilizados:
 * Sass
 * Bootstrap
