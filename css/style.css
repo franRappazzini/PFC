@@ -10858,17 +10858,18 @@ html main {
   object-fit: cover;
 }
 
-.relacionados__container a .descripcion__text {
-  margin-top: 0;
+.relacionados__container a .img__description {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.relacionados__container a .img__description .descripcion__text {
+  margin: 0;
   font-size: 0.8rem;
 }
 
-.relacionados__container a:hover .img__relacionados {
+.relacionados__container a:hover {
   filter: drop-shadow(1px 1px 2px #666);
-}
-
-.relacionados__container a:hover .descripcion__text {
-  color: black;
 }
 
 @media only screen and (max-width: 768px) {
