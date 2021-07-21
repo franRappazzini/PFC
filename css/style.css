@@ -10922,25 +10922,21 @@ html main {
   color: black;
 }
 
-.body__404 h1, .body__404 .h1 {
-  font-size: 8rem;
-  font-weight: 800;
-  filter: drop-shadow(2px 2px 3px grey);
-  color: black;
+.main__404 h2, .main__404 .h2 {
+  margin-top: 1rem;
+  font-size: 5rem;
 }
 
-.body__404 h6, .body__404 .h6 {
+.main__404 h6, .main__404 .h6 {
   margin-bottom: 2rem;
   color: black;
 }
 
-.body__404 h2, .body__404 .h2 {
-  font-size: 3rem;
-  font-weight: 900;
+.main__404 a {
+  color: black;
 }
 
-.body__404 h2 a, .body__404 .h2 a {
-  color: black;
-  text-decoration: none;
+.main__404 a:hover {
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */

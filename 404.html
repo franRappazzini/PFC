@@ -29,11 +29,143 @@
       rel="stylesheet"
     />
   </head>
-  <body class="body__404">
-    <h1 class="text-center">404</h1>
-    <h6 class="text-center">Página no encontrada.</h6>
-    <h2 class="text-center"><a href="index.html">OCKY</a></h2>
-    <p class="text-center"><a href="index.html">Volver al inicio.</a></p>
+  <body>
+    <header>
+      <div
+        class="
+          container-fluid
+          header__container
+          d-flex
+          justify-content-between
+          align-items-center
+        "
+      >
+        <div>
+          <h1><a class="header__logo" href="index.html">OCKY</a></h1>
+        </div>
+
+        <nav>
+          <ul class="nav__ul">
+            <li><a class="nav__link" href="mujer.html">MUJER</a></li>
+            <li><a class="nav__link" href="hombre.html">HOMBRE</a></li>
+            <li><a class="nav__link" href="marcas.html">MARCAS</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <a class="header__contacto" href="contacto.html">CONTACTO</a>
+        </div>
+
+        <div class="header__burger-menu">
+          <img
+            src="img/Logos/list.svg"
+            alt="img-burger-menu"
+            width="35"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          />
+          <div
+            class="offcanvas offcanvas-start burger-menu--width"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                <a class="header__logo" href="index.html">OCKY</a>
+              </h1>
+              <img
+                src="img/Logos/x.svg"
+                alt="img-closeButton"
+                width="15"
+                type="button"
+                class="text-reset button__close-x"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              />
+            </div>
+            <div class="offcanvas-body">
+              <nav>
+                <ul class="nav__ul-burger list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a class="nav__link-burger" href="mujer.html">MUJER</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav__link-burger" href="hombre.html">HOMBRE</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav__link-burger" href="marcas.html">MARCAS</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a class="nav__link-burger" href="contacto.html"
+                      >CONTACTO</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="burger-menu__footer d-flex justify-content-start">
+                <a href="https://www.facebook.com/Ocky-Tandil-955514781227244"
+                  ><img
+                    class="footer__logo"
+                    src="img/Logos/logo-facebook.svg"
+                    alt="img-facebook"
+                    width="30"
+                /></a>
+
+                <a href="https://www.instagram.com/ockytandil/"
+                  ><img
+                    class="footer__logo"
+                    src="img/Logos/logo-instagram.svg"
+                    alt="img-instagram"
+                    width="30"
+                /></a>
+
+                <a href="#"
+                  ><img
+                    class="footer__logo"
+                    src="img/Logos/logo-whatsapp.svg"
+                    alt="img-whatsapp"
+                    width="27"
+                /></a>
+
+                <a href="tel:+549xxxxxxxxxx"
+                  ><img
+                    class="footer__logo"
+                    src="img/Logos/telephone.svg"
+                    alt="img-phone"
+                    width="30"
+                /></a>
+
+                <a href="mailto:nombre@ejemplo.com"
+                  ><img
+                    class="footer__logo"
+                    src="img/Logos/mail.svg"
+                    alt="img-mail"
+                    width="30"
+                /></a>
+
+                <a href="contacto.html"
+                  ><img
+                    class="footer__logo"
+                    src="img/Logos/location.svg"
+                    alt="img-ubicacion"
+                    width="30"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main__404">
+      <h2 class="text-center">Error <strong>404</strong>.</h2>
+      <h3 class="text-center">Página no encontrada.</h3>
+      <p class="text-center"><a href="index.html">Volver al inicio.</a></p>
+    </main>
 
     <script src="dist/js/bootstrap.js"></script>
   </body>
