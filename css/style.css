@@ -10315,19 +10315,29 @@ html header .header__container .nav__ul li {
 html header .header__container .nav__ul li .nav__link {
   text-decoration: none;
   color: black;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
 }
 
 html header .header__container .nav__ul li .nav__link:hover {
-  font-weight: 500;
+  background-size: 100% 1.5px;
 }
 
 html header .header__container .header__contacto {
   text-decoration: none;
   color: black;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
 }
 
 html header .header__container .header__contacto:hover {
-  font-weight: 500;
+  background-size: 100% 1.5px;
 }
 
 html header .header__container .header__burger-menu {
@@ -10512,10 +10522,15 @@ html main {
   text-decoration: none;
   color: black;
   margin: 0;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
 }
 
 .main__mas-marcas:hover {
-  font-weight: 500;
+  background-size: 100% 1.5px;
   color: black;
 }
 
@@ -10808,7 +10823,15 @@ html main {
 .ul__talles li {
   margin-right: 0.5rem;
   font-size: 0.8rem;
-  text-decoration: underline;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
+}
+
+.ul__talles li:hover {
+  background-size: 100% 1.5px;
 }
 
 .reserva__producto {
@@ -10887,10 +10910,15 @@ html main {
 .breadcrumb__link {
   color: black;
   text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
 }
 
 .breadcrumb__link:hover {
-  font-weight: 500;
+  background-size: 100% 1.5px;
   color: black;
 }
 
