@@ -10377,6 +10377,14 @@ html header .header__container .header__burger-menu {
   html header .header__container .header__burger-menu .burger-menu--width .nav__ul-burger .list-group-item .nav__link-burger {
     text-decoration: none;
     color: black;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1.5px;
+    transition: background-size 0.5s;
+  }
+  html header .header__container .header__burger-menu .burger-menu--width .nav__ul-burger .list-group-item .nav__link-burger:focus {
+    background-size: 100% 1.5px;
   }
   html header .header__container .header__burger-menu .burger-menu--width .burger-menu__footer {
     position: fixed;
