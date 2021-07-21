@@ -10749,10 +10749,14 @@ html main {
 }
 
 .main__container-contacto .div__container-form .form__fieldset .form__button {
-  background-color: #eeeeee;
+  background-color: white;
   border: black solid 1px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0.5rem;
+}
+
+.main__container-contacto .div__container-form .form__fieldset .form__button:hover {
+  background-color: rgba(226, 226, 226, 0.9);
 }
 
 .main__container-contacto .div__container-form .form__fieldset .form__button:active {
