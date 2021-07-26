@@ -10290,14 +10290,18 @@ html header .header__container {
   margin: auto;
 }
 
-html header .header__container .header__logo {
+html header .header__container h1, html header .header__container .h1 {
+  margin: 0;
+}
+
+html header .header__container h1 .header__logo, html header .header__container .h1 .header__logo {
   text-decoration: none;
   color: black;
   font-size: 3rem;
   font-weight: 900;
 }
 
-html header .header__container .header__logo:hover {
+html header .header__container h1 .header__logo:hover, html header .header__container .h1 .header__logo:hover {
   filter: drop-shadow(3px 3px 1px #adadad);
 }
 
