@@ -10415,36 +10415,31 @@ html footer .footer__container .footer__text {
   font-size: 1.2rem;
 }
 
-html footer .footer__container .footer__ul {
+html footer .footer__container .footer__ul, html footer .footer__container .footer__ul--redes {
   margin-bottom: 1rem;
   padding: 0;
 }
 
-html footer .footer__container .footer__ul li {
+html footer .footer__container .footer__ul li, html footer .footer__container .footer__ul--redes li {
   list-style: none;
   margin: 0.5rem;
 }
 
-html footer .footer__container .footer__ul li a {
+html footer .footer__container .footer__ul li a, html footer .footer__container .footer__ul--redes li a {
   text-decoration: none;
   color: black;
 }
 
-html footer .footer__container .footer__ul li a:hover img, html footer .footer__container .footer__ul li a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__ul li a:hover video {
+html footer .footer__container .footer__ul li a:hover img, html footer .footer__container .footer__ul--redes li a:hover img, html footer .footer__container .footer__ul li a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__ul li a:hover video, html footer .footer__container .footer__ul--redes li a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__ul--redes li a:hover video {
   transform: scale(1.05);
 }
 
-html footer .footer__container .footer__img-redes {
+html footer .footer__container .footer__ul--redes {
   justify-content: center;
 }
 
-html footer .footer__container .footer__img-redes a {
-  margin-right: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-html footer .footer__container .footer__img-redes a:hover img, html footer .footer__container .footer__img-redes a:hover .grid__container .grid__marca video, .grid__container .grid__marca html footer .footer__container .footer__img-redes a:hover video {
-  transform: scale(1.05);
+html footer .footer__container .footer__ul--redes .li__redes {
+  margin: 0rem 0.5rem;
 }
 
 html footer .footer__container .footer__map {
@@ -10455,7 +10450,7 @@ html footer .footer__container .footer__map {
 }
 
 @media only screen and (max-width: 409px) {
-  html footer .footer__container .footer__img-redes {
+  html footer .footer__container .footer__ul--redes {
     justify-content: flex-start;
   }
 }
