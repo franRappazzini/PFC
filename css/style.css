@@ -10950,4 +10950,12 @@ html main {
 .main__404 a:hover {
   font-weight: 500;
 }
+
+body {
+  background-image: url(../img/Logos/No-data-pana.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 30vh;
+  background-size: 30rem;
+}
 /*# sourceMappingURL=style.css.map */
