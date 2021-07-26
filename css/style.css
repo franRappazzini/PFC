@@ -10933,29 +10933,29 @@ html main {
   color: black;
 }
 
-.main__404 h2, .main__404 .h2 {
-  margin-top: 1rem;
-  font-size: 5rem;
-}
-
-.main__404 h6, .main__404 .h6 {
-  margin-bottom: 2rem;
-  color: black;
-}
-
-.main__404 a {
-  color: black;
-}
-
-.main__404 a:hover {
-  font-weight: 500;
-}
-
-body {
+.body__404 {
   background-image: url(../img/Logos/No-data-pana.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 30vh;
   background-size: 30rem;
+}
+
+.body__404 .main__404 h2, .body__404 .main__404 .h2 {
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+
+.body__404 .main__404 h6, .body__404 .main__404 .h6 {
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.body__404 .main__404 a {
+  color: black;
+}
+
+.body__404 .main__404 a:hover {
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
