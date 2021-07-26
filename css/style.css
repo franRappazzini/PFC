@@ -10351,10 +10351,6 @@ html header .header__container .header__burger-menu {
 @media only screen and (max-width: 991px) {
   html header .header__container {
     flex-direction: row-reverse;
-    justify-content: flex-end;
-  }
-  html header .header__container .div__logo {
-    margin: 0 auto;
   }
   html header .header__container .header__contacto,
   html header .header__container .nav__ul {
