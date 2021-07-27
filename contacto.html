@@ -178,24 +178,11 @@
           </ol>
         </nav>
 
-        <div class="main__container-contacto">
-          <div class="div__container-map d-flex justify-content-center">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9785.422558337186!2d-59.14288780623181!3d-37.32994450586904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fbd57e88695%3A0x606676a0821a972e!2sOcky!5e0!3m2!1ses!2sar!4v1625490457406!5m2!1ses!2sar"
-              width="500"
-              height="380"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
-          </div>
-
-          <div class="div__container-form d-flex justify-content-center">
-            <form action="" method="post">
-              <legend class="text-center">Contactanos</legend>
-              <fieldset
-                class="form__fieldset d-flex flex-column align-items-center"
-              >
+        <div class="row main__container-contacto">
+          <div class="col-12 div__container-form">
+            <legend class="col-md-3 offset-md-3 col-12">Contactanos:</legend>
+            <form action="" method="post" class="row">
+              <div class="col-md-3 offset-md-3 col-12 d-flex flex-column">
                 <label for="nombre">Nombre:</label>
                 <input
                   type="text"
@@ -204,10 +191,12 @@
                   required
                   autofocus
                 />
-                <br />
+              </div>
+              <div class="col-md-3 col-12 d-flex flex-column">
                 <label for="apellido">Apellido:</label>
                 <input type="text" id="apellido" name="apellido" required />
-                <br />
+              </div>
+              <div class="col-md-3 offset-md-3 col-12 d-flex flex-column">
                 <label for="email">Mail:</label>
                 <input
                   type="email"
@@ -216,7 +205,8 @@
                   placeholder="nombre@ejemplo.com"
                   required
                 />
-                <br />
+              </div>
+              <div class="col-md-3 col-12 d-flex flex-column">
                 <label for="sexo">Sexo:</label>
                 <select name="sexo" id="sexo">
                   <option value="">[Seleccionar]</option>
@@ -224,9 +214,8 @@
                   <option value="">Hombre</option>
                   <option value="">Otro</option>
                 </select>
-
-                <br />
-
+              </div>
+              <div class="col-md-6 offset-md-3 col-12 d-flex flex-column">
                 <label for="mensaje">Mensaje:</label>
                 <textarea
                   name="mensaje"
@@ -235,26 +224,34 @@
                   rows="7"
                   required
                 ></textarea>
-
-                <br />
-
+              </div>
+              <div class="col-12 text-center">
                 <label for="novedades"
                   >¿Desea recibir las nuevas novedades?</label
                 >
                 <input type="checkbox" name="novedades" />
-
-                <br />
-
-                <div>
-                  <input type="submit" value="Enviar" class="form__button" />
-                  <input
-                    type="reset"
-                    value="Limpiar formulario"
-                    class="form__button"
-                  />
-                </div>
-              </fieldset>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <input type="submit" value="Enviar" class="form__button" />
+                <input
+                  type="reset"
+                  value="Limpiar formulario"
+                  class="form__button"
+                />
+              </div>
             </form>
+          </div>
+          <div class="col-12 div__container-map">
+            <div class="div__container-map d-flex justify-content-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9785.422558337186!2d-59.14288780623181!3d-37.32994450586904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fbd57e88695%3A0x606676a0821a972e!2sOcky!5e0!3m2!1ses!2sar!4v1625490457406!5m2!1ses!2sar"
+                width="450"
+                height="380"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

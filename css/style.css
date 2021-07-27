@@ -10736,58 +10736,45 @@ html main {
 
 .main__container-contacto .div__container-map iframe {
   margin-bottom: 1rem;
+  height: 35rem;
 }
 
 .main__container-contacto .div__container-form {
   margin-bottom: 1rem;
 }
 
-.main__container-contacto .div__container-form .form__fieldset {
-  border: 1px solid black;
-  width: 25vw;
-}
-
-.main__container-contacto .div__container-form .form__fieldset .form__button {
+.main__container-contacto .div__container-form .form__button {
   background-color: white;
   border: black solid 1px;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 0.5rem;
+  margin: 1rem 0.5rem;
 }
 
-.main__container-contacto .div__container-form .form__fieldset .form__button:hover {
+.main__container-contacto .div__container-form .form__button:hover {
   background-color: rgba(226, 226, 226, 0.9);
 }
 
-.main__container-contacto .div__container-form .form__fieldset .form__button:active {
+.main__container-contacto .div__container-form .form__button:active {
   transform: scale(0.9);
 }
 
 @media only screen and (max-width: 420px) {
-  .main__container-contacto {
-    flex-direction: column;
-  }
   .main__container-contacto .div__container-map iframe {
     width: 90%;
     height: 12rem;
   }
-  .main__container-contacto .div__container-form .form__fieldset {
-    width: auto;
-  }
 }
 
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
-  .main__container-contacto iframe {
-    width: 25rem;
+  .main__container-contacto .div__container-map iframe {
+    width: 35rem;
     height: 25rem;
-  }
-  .main__container-contacto .div__container-form .form__fieldset {
-    width: auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .main__container-contacto iframe {
-    width: 60vw;
+  .main__container-contacto .div__container-map iframe {
+    width: 80vw;
   }
 }
 
