@@ -10905,7 +10905,11 @@ html main {
   }
 }
 
-.breadcrumb__link {
+ol {
+  margin-top: 0.5rem;
+}
+
+ol .breadcrumb__link {
   color: black;
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
@@ -10915,7 +10919,7 @@ html main {
   transition: background-size 0.5s;
 }
 
-.breadcrumb__link:hover {
+ol .breadcrumb__link:hover {
   background-size: 100% 1.5px;
   color: black;
 }
