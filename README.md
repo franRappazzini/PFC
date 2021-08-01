@@ -10,6 +10,8 @@ Sitio web responsive creado con HTML y CSS para el proyecto final de Desarrollo 
 * Grids
 * BEM
 * SEO
+* Npm
+* Git
 
 
 ### 👉🏼[Ver proyecto final](https://proyecto-final-dw-coder.netlify.app/)👈🏼
