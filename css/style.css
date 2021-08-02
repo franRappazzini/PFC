@@ -10455,6 +10455,37 @@ html footer .footer__container .footer__map {
   }
 }
 
+html footer .footer__copyright {
+  border-top: #bebebe 1px solid;
+}
+
+html footer .footer__copyright p {
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+html footer .footer__copyright p a {
+  text-decoration: none;
+  color: black;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
+}
+
+html footer .footer__copyright p a:hover {
+  background-size: 100% 1.5px;
+}
+
+@media only screen and (max-width: 409px) {
+  html footer .footer__copyright p {
+    text-align: left;
+  }
+}
+
 html main {
   max-width: 1440px;
   margin: auto;
