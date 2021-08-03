@@ -1,0 +1,42 @@
+.row__container--indumentaria {
+  .col-lg-3 {
+    margin-bottom: $rem * 3;
+    height: $rem * 25;
+
+    a {
+      text-decoration: none;
+      &:hover .row__img {
+        filter: drop-shadow(1px 1px 3px #666);
+      }
+
+      .row__img {
+        @include sizes(100%, 100%);
+        object-fit: cover;
+      }
+
+      .img__descripcion {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+        .img__text {
+          font-size: $rem * 0.8;
+          color: black;
+          text-decoration: none;
+          margin: 0;
+          margin-bottom: 4px;
+        }
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      margin-bottom: $rem * 2.5;
+      height: $rem * 20;
+    }
+
+    @media only screen and (max-width: 575px) {
+      height: $rem * 16;
+    }
+
+    @media only screen and (min-width: 1300px) {
+      height: $rem * 30;
+    }
+  }
+}

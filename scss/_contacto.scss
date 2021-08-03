@@ -1,0 +1,42 @@
+.main__container-contacto {
+  .div__container-form {
+    margin-bottom: $rem;
+
+    .form__button {
+      background-color: rgb(255, 255, 255);
+      border: black solid 1px;
+      font-family: "Poppins", sans-serif;
+      margin: $rem $rem/2;
+      &:hover {
+        background-color: rgba(226, 226, 226, 0.9);
+      }
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
+
+  .div__container-map {
+    iframe {
+      margin-bottom: $rem;
+      height: $rem * 35;
+    }
+
+    @media only screen and (max-width: 420px) {
+      iframe {
+        @include sizes(90%, $rem * 12);
+      }
+    }
+
+    @media only screen and (min-width: 421px) and (max-width: 1024px) {
+      iframe {
+        @include sizes($rem * 35, $rem * 25);
+      }
+    }
+    @media only screen and (min-width: 1024px) {
+      iframe {
+        width: 80vw;
+      }
+    }
+  }
+}

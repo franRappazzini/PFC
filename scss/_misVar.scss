@@ -1,0 +1,8 @@
+$max-width: 1440px;
+$rem: 1rem;
+$bootstrap-width: 991px;
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}

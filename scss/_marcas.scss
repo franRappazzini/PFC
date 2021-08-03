@@ -1,0 +1,85 @@
+.grid__container {
+  display: grid;
+  grid-template-areas:
+    "allo bensimon bensimon"
+    "besha cibeles legacy"
+    "lovely lovely tryme";
+  grid-template-rows: repeat(3, $rem * 28);
+  grid-gap: $rem * 1.5;
+  margin-bottom: $rem;
+
+  .allo {
+    grid-area: allo;
+  }
+  .bensimon {
+    grid-area: bensimon;
+  }
+  .besha {
+    grid-area: besha;
+  }
+  .cibeles {
+    grid-area: cibeles;
+  }
+  .lovely {
+    grid-area: lovely;
+  }
+  .legacy {
+    grid-area: legacy;
+  }
+  .tryme {
+    grid-area: tryme;
+  }
+
+  .grid__marca {
+    position: relative;
+
+    img {
+      @include sizes(100%, 100%);
+      object-fit: cover;
+    }
+    video {
+      @extend img;
+    }
+
+    .marca__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-decoration: none;
+      transition: all linear 0.3s;
+      font-size: $rem * 1.9;
+    }
+
+    &:hover .marca__text {
+      font-size: $rem * 3;
+      font-weight: 700;
+      text-shadow: 3px 3px 2px black;
+    }
+
+    &:hover img,
+    &:hover video {
+      filter: drop-shadow(1px 1px 3px #666) blur(1px);
+    }
+
+    @media only screen and (max-width: 991px) {
+      .marca__text {
+        font-size: $rem * 2.5;
+        font-weight: 500;
+        text-shadow: 3px 3px 2px black;
+        transition: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    grid-gap: $rem;
+
+    .grid__marca {
+      height: $rem * 25;
+    }
+  }
+}

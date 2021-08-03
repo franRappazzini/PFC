@@ -1,0 +1,132 @@
+.row__container--marcas {
+  margin-top: $rem;
+  margin-bottom: $rem;
+
+  a {
+    position: relative;
+
+    .marca__img {
+      @include sizes(100%, $rem * 31);
+      object-fit: cover;
+    }
+
+    .img__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-decoration: none;
+      transition: all linear 0.3s;
+      font-size: $rem * 1.9;
+    }
+
+    &:hover .marca__img {
+      filter: drop-shadow(1px 1px 3px #666) blur(1px);
+    }
+    &:hover .img__text {
+      font-size: $rem * 3;
+      font-weight: 700;
+      text-shadow: 3px 3px 2px black;
+    }
+  }
+
+  @media only screen and (max-width: $bootstrap-width) {
+    margin-top: $rem/2;
+    margin-bottom: $rem/2;
+
+    .col-md-4 {
+      margin-top: $rem/2;
+      margin-bottom: $rem/2;
+
+      a .img__text {
+        font-size: $rem * 2.5;
+        font-weight: 500;
+        text-shadow: 3px 3px 2px black;
+        transition: none;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1300px) {
+    a .marca__img {
+      height: $rem * 35;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    a .marca__img {
+      height: $rem * 40;
+    }
+  }
+}
+
+.main__mas-marcas {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.5s;
+  &:hover {
+    background-size: 100% 1.5px;
+    color: black;
+  }
+}
+
+.row__container--banner {
+  margin-top: $rem;
+  margin-bottom: $rem;
+
+  a {
+    position: relative;
+
+    .banner__img {
+      @include sizes(100%, 100%);
+      object-fit: cover;
+    }
+
+    .banner__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: $rem * 2;
+      transform: translate(-50%, -50%);
+      padding: $rem/2 $rem;
+      color: rgb(46, 46, 46);
+      text-decoration: none;
+      transition: all linear 0.1s;
+    }
+
+    &:hover .banner__text {
+      font-weight: 700;
+      color: rgb(46, 46, 46);
+      border: solid 2px rgb(46, 46, 46);
+    }
+
+    &:hover .banner__img {
+      filter: drop-shadow(1px 1px 3px #666);
+    }
+  }
+
+  @media only screen and (max-width: $bootstrap-width) {
+    margin-top: $rem;
+    margin-bottom: $rem/2;
+
+    a {
+      .banner__img {
+        height: $rem * 10;
+        margin-bottom: $rem/2;
+      }
+
+      .banner__text {
+        color: black;
+        font-size: $rem * 1.5;
+        font-weight: 500;
+        padding: $rem/5 $rem/2;
+        border: black 1px solid;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+// cambie algunas variables de bootstrap asi queda acorde a mi sitio
+
+// ACCORDION
+// para sacarle el borde redondeado al accordion
+$border-radius: 0deg;
+// color interno del accordion al tocarlo
+$accordion-button-active-bg: transparent;
+// sombra que se hace al tocarlo
+$accordion-button-focus-box-shadow: transparent;
+// icono del acordion cuando se abre
+$accordion-icon-active-color: black;
+// color de button al abrir el accordion
+$accordion-button-active-color: black;
+
+// OFFCANVAS
+// para sacarle el borde azul al tocar el burger menu
+$offcanvas-border-color: transparent;
+// para sacarle el borde azul al tocar la 'x'
+$btn-close-focus-shadow: transparent;

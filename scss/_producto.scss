@@ -1,0 +1,122 @@
+.carousel {
+  margin-bottom: $rem;
+
+  .carousel-item {
+    height: $rem * 28;
+
+    img {
+      @include sizes(100%, 100%);
+      object-fit: cover;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .carousel-item {
+      height: $rem * 36;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .carousel-item {
+      height: $rem * 33;
+    }
+  }
+}
+
+.precio__producto {
+  margin-bottom: $rem * 1.5;
+}
+
+.talle__producto {
+  margin: 0;
+}
+
+.ul__talles {
+  list-style: none;
+  padding: 0;
+  margin-bottom: $rem * 1.5;
+
+  li {
+    margin-right: $rem/2;
+    font-size: $rem * 0.8;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1.5px;
+    transition: background-size 0.5s;
+    &:hover {
+      background-size: 100% 1.5px;
+    }
+  }
+}
+
+.reserva__producto {
+  margin: 0;
+  font-size: $rem * 0.9;
+}
+
+.whatsapp__producto {
+  margin-bottom: $rem * 1.5;
+}
+
+.accordion {
+  margin-bottom: $rem;
+
+  button {
+    font-size: $rem * 0.8;
+    padding: $rem/2 $rem * 0.8;
+    color: black;
+  }
+  .accordion__body {
+    padding: $rem/2 $rem * 0.8;
+
+    p {
+      font-size: $rem * 0.7;
+      margin: 0 0 0 $rem * 0.3;
+    }
+
+    .img__tarjetas {
+      margin-bottom: $rem;
+    }
+  }
+}
+
+.relacionados__container {
+  p {
+    margin-top: $rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    .img__relacionados {
+      @include sizes(100%, $rem * 18);
+      object-fit: cover;
+    }
+
+    .img__description {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      margin-bottom: $rem;
+
+      .descripcion__text {
+        margin: 0;
+        font-size: $rem * 0.8;
+      }
+    }
+
+    &:hover {
+      filter: drop-shadow(1px 1px 2px #666);
+    }
+
+    @media only screen and (max-width: 768px) {
+      .img__relacionados {
+        height: $rem * 15;
+      }
+    }
+
+    @media only screen and (min-width: 1400px) {
+      .img__relacionados {
+        height: $rem * 20;
+      }
+    }
+  }
+}

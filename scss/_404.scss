@@ -1,0 +1,26 @@
+.body__404 {
+  background-image: url(https://franrappazzini.github.io/Proyecto_Final_DW_Coder/img/Logos/No-data-pana.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 30vh;
+  background-size: 30rem;
+
+  .main__404 {
+    h2 {
+      margin-top: $rem;
+      font-size: $rem * 5;
+    }
+
+    h6 {
+      margin-bottom: $rem * 2;
+      color: black;
+    }
+
+    a {
+      color: black;
+      &:hover {
+        font-weight: 500;
+      }
+    }
+  }
+}
